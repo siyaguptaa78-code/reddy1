@@ -73,6 +73,17 @@ export default function RootLayout({
   return (
     <html lang="en-US">
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GSYPQG92W7"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-GSYPQG92W7');
+            `,
+          }}
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet"
