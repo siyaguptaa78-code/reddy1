@@ -1,8 +1,8 @@
 export const CONFIG = {
   brandName: "Reddy Anna",
   domainName: "reddybookwinin.in",
-  whatsappUrl: "https://wa.me/918872189728",
-  whatsappSupportUrl: "https://wa.me/918872189728",
+  whatsappUrl: "https://wa.me/916026703858",
+  whatsappSupportUrl: "https://wa.me/916026703858",
   
   logoUrl: "https://reddybookwinin.in/wp-content/uploads/2025/06/image-659e7b71ad644.webp",
   faviconUrl: "https://reddybookwinin.in/wp-content/uploads/2025/06/cropped-download-1-1-150x150.png",
