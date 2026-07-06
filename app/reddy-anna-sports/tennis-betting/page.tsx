@@ -1,7 +1,20 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Tennis Betting Online | Live Grand Slam Odds | Reddy Anna Book",
+  description: "Bet on Wimbledon, US Open, Australian Open and ATP matches with Reddy Anna Book. Live tennis odds and fast withdrawals.",
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/tennis-betting" },
+  openGraph: {
+    title: "Tennis Betting | Reddy Anna Book",
+    description: "Bet on Wimbledon, US Open and ATP matches with Reddy Anna Book.",
+    url: "https://reddynow.com/reddy-anna-sports/tennis-betting",
+    type: "website",
+  },
+};
 
 export default function TennisBettingPage() {
   return (

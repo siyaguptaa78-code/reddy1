@@ -1,7 +1,20 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { CONFIG } from "@/utils/config";
+
+export const metadata: Metadata = {
+  title: "Cricket Betting Blog | Tips & Guides | Reddy Anna Book",
+  description: "Explore cricket betting guides, IPL tips, live match strategies and expert insights from Reddy Anna Book – India's leading betting ID platform.",
+  alternates: { canonical: "https://reddynow.com/blogs" },
+  openGraph: {
+    title: "Cricket Betting Blog | Tips & Guides | Reddy Anna Book",
+    description: "Explore cricket betting guides, IPL tips and expert insights from Reddy Anna Book.",
+    url: "https://reddynow.com/blogs",
+    type: "website",
+  },
+};
 
 export default function BlogsPage() {
   return (

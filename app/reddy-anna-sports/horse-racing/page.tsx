@@ -1,6 +1,19 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Horse Racing Betting | Live Odds | Reddy Anna Book",
+  description: "Bet on live horse racing events with competitive odds on Reddy Anna Book. India's trusted sports betting platform with instant payout guarantee.",
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/horse-racing" },
+  openGraph: {
+    title: "Horse Racing Betting | Reddy Anna Book",
+    description: "Bet on live horse racing with competitive odds on Reddy Anna Book.",
+    url: "https://reddynow.com/reddy-anna-sports/horse-racing",
+    type: "website",
+  },
+};
 
 export default function HorseRacingPage() {
   return (

@@ -1,7 +1,20 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Cricket Betting Online | Live IPL Odds | Reddy Anna Book",
+  description: "Bet on live cricket matches with Reddy Anna Book. Best IPL, T20 and Test match odds with instant payouts and 24/7 support.",
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/cricket-betting" },
+  openGraph: {
+    title: "Cricket Betting | Reddy Anna Book",
+    description: "Bet on live cricket with best IPL odds on Reddy Anna Book.",
+    url: "https://reddynow.com/reddy-anna-sports/cricket-betting",
+    type: "website",
+  },
+};
 
 export default function CricketBettingPage() {
   return (

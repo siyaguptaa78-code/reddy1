@@ -1,6 +1,19 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Indian Card Games Online | Teen Patti & Andar Bahar | Reddy Anna Book",
+  description: "Play Teen Patti, Andar Bahar, Rummy and more Indian card games on Reddy Anna Book with live dealers and certified fair-play.",
+  alternates: { canonical: "https://reddynow.com/indian-card-games" },
+  openGraph: {
+    title: "Indian Card Games | Reddy Anna Book",
+    description: "Play Teen Patti, Andar Bahar and more Indian card games with live dealers on Reddy Anna Book.",
+    url: "https://reddynow.com/indian-card-games",
+    type: "website",
+  },
+};
 
 export default function IndianCardGamesPage() {
   return (

@@ -1,7 +1,20 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Live Betting | In-Play Sports Odds | Reddy Anna Book",
+  description: "Bet in real-time on live sports with Reddy Anna Book. In-play cricket, football and tennis with live odds updated every second.",
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/live-betting" },
+  openGraph: {
+    title: "Live Betting | Reddy Anna Book",
+    description: "Bet in real-time on live sports with in-play odds on Reddy Anna Book.",
+    url: "https://reddynow.com/reddy-anna-sports/live-betting",
+    type: "website",
+  },
+};
 
 export default function LiveBettingPage() {
   return (

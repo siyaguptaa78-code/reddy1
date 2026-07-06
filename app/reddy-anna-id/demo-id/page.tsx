@@ -1,7 +1,20 @@
 import React from "react";
+import type { Metadata } from "next";
 import { CONFIG } from "@/utils/config";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Free Demo ID | Try Reddy Anna Book Risk-Free",
+  description: "Get a free Reddy Anna Demo ID and explore the platform risk-free. Try cricket betting, live casino and sports betting before depositing real money.",
+  alternates: { canonical: "https://reddynow.com/reddy-anna-id/demo-id" },
+  openGraph: {
+    title: "Free Demo ID | Reddy Anna Book",
+    description: "Get a free Reddy Anna Demo ID and explore the platform risk-free.",
+    url: "https://reddynow.com/reddy-anna-id/demo-id",
+    type: "website",
+  },
+};
 
 export default function DemoIdPage() {
   return (

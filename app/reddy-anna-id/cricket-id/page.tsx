@@ -1,6 +1,19 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "Cricket Betting ID | Official Reddy Anna Cricket ID | Instant Delivery",
+  description: "Get your official Reddy Anna Cricket Betting ID instantly via WhatsApp. Bet on live cricket, IPL and T20 World Cup with India's most trusted platform.",
+  alternates: { canonical: "https://reddynow.com/reddy-anna-id/cricket-id" },
+  openGraph: {
+    title: "Cricket Betting ID | Reddy Anna Book",
+    description: "Get your official Reddy Anna Cricket Betting ID instantly via WhatsApp.",
+    url: "https://reddynow.com/reddy-anna-id/cricket-id",
+    type: "website",
+  },
+};
 
 export default function CricketIdPage() {
   return (

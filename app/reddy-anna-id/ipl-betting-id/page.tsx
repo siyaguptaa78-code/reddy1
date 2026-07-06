@@ -1,6 +1,19 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+
+export const metadata: Metadata = {
+  title: "IPL Betting ID | Official Reddy Anna IPL ID | India's #1 Platform",
+  description: "Get your official Reddy Anna IPL Betting ID and bet on every IPL match live. Competitive odds, instant payouts and 24/7 support guaranteed.",
+  alternates: { canonical: "https://reddynow.com/reddy-anna-id/ipl-betting-id" },
+  openGraph: {
+    title: "IPL Betting ID | Reddy Anna Book",
+    description: "Get your official Reddy Anna IPL Betting ID and bet on every IPL match live.",
+    url: "https://reddynow.com/reddy-anna-id/ipl-betting-id",
+    type: "website",
+  },
+};
 
 export default function IplBettingIdPage() {
   return (

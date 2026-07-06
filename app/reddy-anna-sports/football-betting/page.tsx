@@ -1,7 +1,20 @@
 import React from "react";
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 import { MatchList } from "@/components/MatchList";
+
+export const metadata: Metadata = {
+  title: "Football Betting Online | Live Odds | Reddy Anna Book",
+  description: "Bet on Premier League, Champions League and international football with Reddy Anna Book. Best live odds, instant withdrawals and trusted platform.",
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/football-betting" },
+  openGraph: {
+    title: "Football Betting | Reddy Anna Book",
+    description: "Bet on Premier League and international football with best live odds on Reddy Anna Book.",
+    url: "https://reddynow.com/reddy-anna-sports/football-betting",
+    type: "website",
+  },
+};
 
 export default function FootballBettingPage() {
   return (
