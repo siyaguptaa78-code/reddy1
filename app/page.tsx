@@ -136,10 +136,10 @@ export default function HomePage() {
                 Reddy Anna — India's #1 Official Cricket Betting ID Provider
               </h1>
               <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                Welcome to <a href="/" className="text-[#00ccff] hover:underline font-bold">Reddy Anna</a>, the official home of Reddy Anna India’s most trusted name in online cricket betting, sports wagering, and live casino gaming since 2010. Whether you are a first-time bettor looking to place your debut IPL bet or a seasoned high-stakes punter seeking the fastest withdrawal speeds in the market, your journey starts here with a verified Reddy Anna Id.
+                Welcome to <a href="/" className="text-[#00ccff] hover:underline font-bold">Reddy Anna</a>, the official website of Reddy Anna India's most trusted online cricket betting portal, sports betting app, and live casino gaming since 2010. Whether you are a new player looking to make your first IPL bet or a high roller looking for the fastest withdrawals in the market, your journey begins with a verified Reddy Anna Id.
               </p>
               <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                Millions of Indian sports fans trust Reddy Anna Book for one simple reason: we deliver what we promise. Instant ID creation, secure transactions, competitive live odds, and round-the-clock support all under one roof at <a href="/" className="text-[#00ccff] hover:underline font-bold">reddybookwinin.in</a>
+                Millions of sports fans across India trust Reddy Anna Book to deliver on its promises. From instant ID creation, safe transactions, competitive live odds, and 24/7 customer support. You can rely on Reddy Anna Book for all your sports betting needs. Experience the best at <a href="/" className="text-[#00ccff] hover:underline font-bold">reddybookwinin.in</a>
               </p>
               <div className="pt-2">
                 <ConicButton text="Join Reddy Anna Book" />
@@ -213,23 +213,15 @@ export default function HomePage() {
               <h2 className="text-[#FFD13F] font-black text-xl md:text-2xl tracking-wide">
                 What Is Reddy Anna? A Complete Introduction
               </h2>
-              <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                Reddy Anna is India’s premier online <a href="/reddy-anna-id/cricket-id" className="text-[#00ccff] hover:underline font-bold">cricket betting ID</a> provider and sports wagering exchange platform. Operating since 2010, Reddy Anna has built an unmatched reputation for reliability, speed, and fairness across millions of registered users spanning every state in India.
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-4">
+                Reddy Anna is India's most popular online cricket betting ID provider and sports exchange betting platform. It has served millions of cricket betting enthusiasts from 2010 and built an excellent reputation for itself. Reddy Anna book offers live cricket betting IDs for IPL betting, T20 World Cup matches, Test matches, and other sporting events like football, kabaddi, tennis, basketball, and more.
               </p>
-              <ul className="text-gray-300 text-sm md:text-base flex flex-col gap-2 font-semibold">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#FFD13F]">✓</span> Live cricket betting markets — IPL, T20 World Cup, Test series, BBL, PSL, and more.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#FFD13F]">✓</span> Football, kabaddi, tennis, basketball, and international sports leagues.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#FFD13F]">✓</span> Live casino games including Teen Patti, Andar Bahar, Roulette, Blackjack, and Poker.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#FFD13F]">✓</span> Instant UPI deposits and fast withdrawal processing directly to your bank account.
-                </li>
-              </ul>
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-4">
+                Reddy Anna also provides live casino betting options such as Teen Patti, poker, and other virtual games. You can conveniently fund your account through instantUPI transactions and withdraw winnings directly to your bank account.
+              </p>
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                Additionally, the site provides cricket betting odds, live scores, and ball-by-ball updates for all domestic and international cricket matches.
+              </p>
               <div className="pt-2">
                 <ConicButton text="Learn More About Us" href="/about-us" />
               </div>
@@ -251,20 +243,20 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
-                  title: "1. Unmatched Trust (14+ Years)",
-                  desc: "Reddy Anna has been serving Indian bettors since 2010. We have processed millions of bets and withdrawals without a single instance of delayed payment or account tampering."
+                  title: "1. Absolute Trust (14+ Years)",
+                  desc: "Reddy Anna is one of the most trusted online betting sites in India that has been operating since 2010. With more than ten years of experience in the industry, Reddy Anna has gained recognition and an excellent reputation for its quick payouts and reliable services."
                 },
                 {
                   title: "2. Fastest ID Creation (< 60s)",
-                  desc: "Getting started with Reddy Anna is the simplest process. Contact our official agent via WhatsApp, share basic details, and receive your verified ID in under 60 seconds."
+                  desc: "Creating an account on Reddy Anna is super simple. You can download official Reddy Anna apk, connect to the site admin via WhatsApp, and get your verified ID within 60 seconds."
                 },
                 {
-                  title: "3. Competitive Odds",
-                  desc: "Our betting odds are among the most competitive in the Indian market, covering ball-by-ball sessions, match winners, and prop bets across major tournaments."
+                  title: "3. Best Odds",
+                  desc: "Reddy Anna has the most competitive betting odds in the Indian market. You can find live odds for all matches, including ball-by-ball updates."
                 },
                 {
                   title: "4. 24/7 Human Support",
-                  desc: "When you have a question about deposits or withdrawals, you get a real human response. Our team operates 24/7 on WhatsApp with responses under 2 minutes."
+                  desc: "Our friendly customer support agents are available round the clock to assist you with any queries you may have about deposits, withdrawals, or other general inquiries. We have a whatsapp chat support that responds to messages within 2 minutes."
                 }
               ].map((reason, idx) => (
                 <div key={idx} className="bg-[#05080f] p-5 rounded-2xl border border-[#F0901A]/5 hover:border-[#F0901A]/15 transition-all">
@@ -279,29 +271,8 @@ export default function HomePage() {
               <h4 className="text-white font-black text-sm mb-3 uppercase tracking-wider text-[#FFD13F]">
                 💳 India-First Payment Ecosystem
               </h4>
-              <div className="overflow-x-auto">
-                <table className="w-full text-left font-bold border-separate border-spacing-y-2 text-xs md:text-sm">
-                  <thead>
-                    <tr className="text-gray-400">
-                      <th className="pb-2">Payment Method</th>
-                      <th className="pb-2">Processing Time</th>
-                    </tr>
-                  </thead>
-                  <tbody className="text-gray-200">
-                    <tr className="bg-[#0c1322]/80 border-b border-[#F0901A]/5">
-                      <td className="p-3 rounded-l-xl">UPI (PhonePe, GPay, BHIM)</td>
-                      <td className="p-3 rounded-r-xl text-green-400">Instant deposit</td>
-                    </tr>
-                    <tr className="bg-[#0c1322]/80">
-                      <td className="p-3 rounded-l-xl">Paytm Wallet & Net Banking</td>
-                      <td className="p-3 rounded-r-xl text-green-400">Instant deposit</td>
-                    </tr>
-                    <tr className="bg-[#0c1322]/80">
-                      <td className="p-3 rounded-l-xl">Withdrawal to any bank</td>
-                      <td className="p-3 rounded-r-xl text-yellow-400">Within 2-4 hours</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div className="text-gray-300 text-sm md:text-base leading-relaxed font-semibold">
+                All financial transactions on Reddy Anna happen within India. This feature speeds up the transaction process while also providing security since there are no international transfers involved. Additionally, you do not have to worry about extra currency conversion charges when making deposits or withdrawals.
               </div>
             </div>
           </section>
@@ -312,15 +283,15 @@ export default function HomePage() {
               How to Get Your Reddy Anna ID — Step-by-Step Guide
             </h2>
             <p className="text-gray-300 text-sm md:text-base mb-6 text-center md:text-left font-semibold">
-              Creating your Reddy Anna cricket betting ID is simple. Follow these steps:
+              Getting a cricket betting id is super simple. See the steps below on how to get your redyaanna id
             </p>
             <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
               {[
-                { title: "1. Visit Website", desc: "Go to reddybookwinin.in. Only trust IDs from our official domain." },
-                { title: "2. Contact WhatsApp", desc: "Click the WhatsApp button and send us a message. Responding in seconds." },
-                { title: "3. Share Basic Details", desc: "Provide your preferred username and secure password." },
-                { title: "4. Receive ID", desc: "Your Reddy Anna Book ID is created and active in under 60 seconds." },
-                { title: "5. Deposit & Bet", desc: "Use UPI or GPay to add funds instantly and start placing bets." }
+                { title: "1. Visit Website", desc: "Go to reddybookwinin.in – Only trusted users can get an ID from our main website." },
+                { title: "2. Contact WhatsApp", desc: "Click on the WhatsApp button and reply to our WhatsApp message." },
+                { title: "3. Give Your Details", desc: "Provide your preferred username and secure password." },
+                { title: "4. Receive ID", desc: "Get your verified Reddy Anna Book ID in under 60s" },
+                { title: "5. Deposit & Bet", desc: "Fund your account with UPI or gpay and start betting right away." }
               ].map((step, idx) => (
                 <div
                   key={idx}
@@ -350,22 +321,22 @@ export default function HomePage() {
               {[
                 {
                   title: "Welcome Bonus",
-                  desc: "Boost your opening balance with our welcome bonus package for new users.",
+                  desc: "This bonus is perfect for new users. It comes in the form of a welcome pack that gives you extra betting power on your first few deposits.",
                   img: CONFIG.images.bonuses.welcome
                 },
                 {
                   title: "Daily Login Bonus",
-                  desc: "Log in during festive seasons or matchdays and unlock free bets and credits.",
+                  desc: "Get surprise gifts and free bets every time you log in during holiday seasons and special events.",
                   img: CONFIG.images.bonuses.daily
                 },
                 {
                   title: "Referral Bonus",
-                  desc: "Invite your friends and earn referral cash rewards on their first deposits.",
+                  desc: "Earn extra income by referring friends and family to Reddy Anna.",
                   img: CONFIG.images.bonuses.referral
                 },
                 {
                   title: "Seasonal Promotions",
-                  desc: "Special cashbacks, reload offers, and odds boosts throughout IPL seasons.",
+                  desc: "Enjoy seasonal cashbacks, special offers, and odds boosts during festive periods or special sporting events.",
                   img: CONFIG.images.bonuses.seasonal
                 }
               ].map((bonus, idx) => (
@@ -390,7 +361,7 @@ export default function HomePage() {
               Reddy Anna App — Bet Smarter on Mobile
             </h3>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-semibold">
-              The Reddy Anna app is the fastest, cleanest mobile betting experience available to Indian users. Built for speed and reliability, the app delivers the full power of reddybookwinin.in directly to your smartphone.
+              The Reddy Anna app is the best cricket betting and live casino app for android users. It is the fastest way to access all the amazing features at reddybookwinin.in
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
               <div className="bg-[#05080f] p-5 rounded-2xl border border-[#F0901A]/5">
@@ -398,10 +369,10 @@ export default function HomePage() {
                   ⚡ Mobile App Features
                 </h4>
                 <ul className="text-gray-300 text-xs md:text-sm flex flex-col gap-2 font-semibold">
-                  <li>• Instant deposits & withdrawals directly from mobile wallet.</li>
-                  <li>• Real-time ball-by-ball updates and live streaming scores.</li>
-                  <li>• Biometric lock (fingerprint/face ID) for advanced account security.</li>
-                  <li>• Smooth operations even on standard 3G/4G connections.</li>
+                  <li>• Instant wallet deposits and withdrawals in just a few clicks.</li>
+                  <li>• Ball-by-ball updates and live-streaming scores.</li>
+                  <li>• Strong biometric authentication, including facial recognition.</li>
+                  <li>• Works well on slow internet connections.</li>
                 </ul>
               </div>
               <div className="bg-[#05080f] p-5 rounded-2xl border border-[#F0901A]/5 flex flex-col justify-between">
@@ -410,7 +381,7 @@ export default function HomePage() {
                     📥 How to Download
                   </h4>
                   <p className="text-gray-400 text-xs leading-relaxed font-semibold">
-                    Android users can download the official Reddy Anna APK file directly from reddybookwinin.in. iOS users can add our web-app to their Safari homescreen. Always verify absolute source domains to ensure safety.
+                    Android users can directly download the apk file from reddybookwinin.in. iPhone users can install the web app on their devices by adding it to the home screen. Always exercise caution when downloading apps from third-party sources, as they may not be secure.
                   </p>
                 </div>
                 <div className="pt-4 text-left">
@@ -434,11 +405,11 @@ export default function HomePage() {
                 Reddy Anna Exchange — Advanced Betting
               </h2>
               <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                For bettors who want to go beyond fixed odds, the Reddy Anna Exchange platform offers a peer-to-peer betting environment where you can back and lay outcomes, trade odds in real time, and access deeper liquidity.
+                If you are looking for something more exciting than fixed odds, Reddy Anna Exchange is the way to go. It is a peer-to-peer platform where you can trade tips, lay bets, and bet on live cricket matches with better odds.
               </p>
               <ul className="text-gray-300 text-xs md:text-sm flex flex-col gap-2 font-semibold">
-                <li>• <strong>Reddy Anna Tiger Exchange</strong> — Preferred for ball-by-ball cricket trades.</li>
-                <li>• <strong>Reddy Anna Sky Exchange</strong> — Known for highly stable markets.</li>
+                <li>• <strong>Reddy Anna Tiger Exchange</strong> – Most popular for live cricket betting</li>
+                <li>• <strong>Reddy Anna Sky Exchange</strong> – Best in class stable markets</li>
               </ul>
               <div className="pt-2">
                 <ConicButton text="Join Reddy Anna Book" />
@@ -517,10 +488,10 @@ export default function HomePage() {
                   📥 Making a Deposit
                 </h4>
                 <ul className="text-gray-300 text-xs md:text-sm flex flex-col gap-2 font-semibold leading-relaxed">
-                  <li>1. Navigate to the Wallet or Deposit section.</li>
-                  <li>2. Select your preferred payment method (UPI, GPay, Paytm).</li>
-                  <li>3. Enter the amount you wish to deposit (minimum ₹100).</li>
-                  <li>4. Complete the payment transaction. Funds reflect instantly.</li>
+                  <li>1. Log in to your account and go to the Wallet or Deposit tab.</li>
+                  <li>2. Choose your preferred mode of payment.</li>
+                  <li>3. Specify the deposit amount. The minimum deposit amount is ₹100.</li>
+                  <li>4. Complete the transaction, and the amount will be credited to your account.</li>
                 </ul>
               </div>
               <div className="bg-[#05080f] p-5 rounded-2xl border border-[#F0901A]/5">
@@ -528,10 +499,10 @@ export default function HomePage() {
                   📤 Making a Withdrawal
                 </h4>
                 <ul className="text-gray-300 text-xs md:text-sm flex flex-col gap-2 font-semibold leading-relaxed">
-                  <li>1. Navigate to the Withdrawal section in your account.</li>
-                  <li>2. Enter the amount you wish to withdraw.</li>
-                  <li>3. Select your bank account or UPI ID destination.</li>
-                  <li>4. Confirm. Funds reflect in your account within 2-4 hours.</li>
+                  <li>1. Go to the Withdrawal menu and enter the amount you wish to withdraw.</li>
+                  <li>2. Select your preferred withdrawal method (bank account or UPI).</li>
+                  <li>3. Provide the necessary withdrawal information.</li>
+                  <li>4. Submit your withdrawal request, and the amount will be transferred to your account within 2-4 hours.</li>
                 </ul>
               </div>
             </div>
@@ -543,7 +514,7 @@ export default function HomePage() {
               Ready to Get Started?
             </h3>
             <p className="text-gray-200 text-sm md:text-base max-w-xl font-semibold leading-relaxed">
-              Visit reddybookwinin.in | Click WhatsApp button | Get your ID in 60 seconds. New users can request a free trial Demo ID instantly. Winnings are processed within 2-4 hours guaranteed!
+              Check out reddybookwinin.in | WhatsApp us | Get a Verified ID in 60s. New users can request for an instant Demo ID . Winnings are paid out within 2-4 hours guaranteed.
             </p>
             <div className="pt-2">
               <ConicButton text="Get Your Verified ID Now" />
