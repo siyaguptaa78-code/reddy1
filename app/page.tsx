@@ -7,7 +7,7 @@ import { Accordion } from "@/components/Accordion";
 
 export default function HomePage() {
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 select-none">
+    <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 ">
       <div className="w-full flex flex-col lg:flex-row gap-8">
         
         {/* Left Sidebar - Desktop only */}

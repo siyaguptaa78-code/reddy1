@@ -5,7 +5,7 @@ import { CONFIG } from "@/utils/config";
 
 export const Sidebar: React.FC = () => {
   return (
-    <aside className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-2xl p-4 shadow-lg sticky top-24 select-none">
+    <aside className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-2xl p-4 shadow-lg sticky top-24 ">
       <h3 className="text-white font-black text-lg px-3 pb-3 mb-3 border-b border-[#F0901A]/10 flex items-center gap-2">
         <span className="text-[#FFD13F]">🔥</span> Sports Menu
       </h3>
