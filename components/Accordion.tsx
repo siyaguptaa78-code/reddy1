@@ -19,7 +19,7 @@ export const Accordion: React.FC<AccordionProps> = ({ items }) => {
   };
 
   return (
-    <div className="w-full flex flex-col gap-4 text-left select-none">
+    <div className="w-full flex flex-col gap-4 text-left ">
       {items.map((item, idx) => {
         const isOpen = openIndex === idx;
         return (

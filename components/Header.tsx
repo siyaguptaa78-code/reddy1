@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
 
   return (
     <header
-      className={`w-full z-50 transition-all duration-300 select-none ${
+      className={`w-full z-50 transition-all duration-300  ${
         isSticky
           ? "fixed top-0 bg-[#05080f]/95 border-b border-[#F0901A]/20 shadow-lg py-3"
           : "relative bg-[#05080f] border-b border-[#F0901A]/10 py-4"

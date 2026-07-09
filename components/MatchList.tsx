@@ -19,7 +19,7 @@ export const MatchList: React.FC<MatchListProps> = ({ category, iconUrl, title }
   const matches: Match[] = CONFIG.matches[category] || [];
 
   return (
-    <div className="w-full flex flex-col gap-4 mt-6 select-none">
+    <div className="w-full flex flex-col gap-4 mt-6 ">
       {/* Category Header */}
       <div className="flex items-center gap-3 bg-[#0c1322] border border-[#F0901A]/10 rounded-2xl p-4 shadow-sm">
         <img src={iconUrl} alt={title} className="w-8 h-8 object-contain" />
@@ -52,7 +52,7 @@ export const MatchList: React.FC<MatchListProps> = ({ category, iconUrl, title }
               <div className="flex items-center justify-between md:justify-end gap-5">
                 {/* Live Badge */}
                 {match.live && (
-                  <div className="live-badge select-none">
+                  <div className="live-badge ">
                     <span /> Live
                   </div>
                 )}

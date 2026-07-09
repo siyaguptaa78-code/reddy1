@@ -10,7 +10,7 @@ interface ConicButtonProps {
 export const ConicButton: React.FC<ConicButtonProps> = ({ text, href = CONFIG.whatsappUrl, onClick }) => {
   if (onClick) {
     return (
-      <button onClick={onClick} className="reddy-conic-btn group relative select-none">
+      <button onClick={onClick} className="reddy-conic-btn group relative ">
         <span className="relative z-10 transition-colors duration-200 group-hover:text-amber-300">
           {text}
         </span>
@@ -23,7 +23,7 @@ export const ConicButton: React.FC<ConicButtonProps> = ({ text, href = CONFIG.wh
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="reddy-conic-btn group relative select-none"
+      className="reddy-conic-btn group relative "
     >
       <span className="relative z-10 transition-colors duration-200 group-hover:text-amber-300">
         {text}

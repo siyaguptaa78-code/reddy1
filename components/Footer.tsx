@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="w-full bg-[#05080f] border-t border-[#F0901A]/10 pt-16 pb-8 px-4 md:px-8 select-none">
+    <footer className="w-full bg-[#05080f] border-t border-[#F0901A]/10 pt-16 pb-8 px-4 md:px-8 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16 text-left">
         {/* Column 1: About Reddy Anna */}
         <div className="flex flex-col gap-4">
