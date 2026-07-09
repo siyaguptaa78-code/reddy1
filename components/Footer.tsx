@@ -84,7 +84,7 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-[#F0901A]/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 font-semibold">
         <p>© {new Date().getFullYear()} Reddy Anna Book. All Rights Reserved.</p>
         <p className="max-w-md text-center md:text-right leading-normal text-[10px]">
-          Warning: Online betting and gambling carry a financial risk. Play responsibly and only if you are 18+ years of age. Certified secure connection under SSL encryption.
+          Warning: Online betting and gambling can be addictive and pose a financial risk. Only persons aged 18 years and over are permitted to engage in such activities solely for entertainment purposes only. This platform is protected by SSL encryption security certificates.
         </p>
       </div>
     </footer>
