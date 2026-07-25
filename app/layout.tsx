@@ -55,19 +55,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "https://reddybookwinin.in/wp-content/uploads/2025/06/cropped-download-1-1-150x150.png",
+        url: "/favicon-32x32.png",
         sizes: "32x32",
         type: "image/png"
       },
       {
-        url: "https://reddybookwinin.in/wp-content/uploads/2025/06/cropped-download-1-1-300x300.png",
+        url: "/favicon-192x192.png",
         sizes: "192x192",
         type: "image/png"
       }
     ],
     apple: [
       {
-        url: "https://reddybookwinin.in/wp-content/uploads/2025/06/cropped-download-1-1-300x300.png"
+        url: "/favicon-192x192.png"
       }
     ]
   }

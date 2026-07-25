@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
+import { BlogCtaCard } from "@/components/BlogCtaCard";
 
 export const metadata: Metadata = {
   title: "The Hundred 2026: Full Schedule, Fixtures, Teams, Squads & Tickets",
@@ -472,21 +473,8 @@ export default function TheHundredSchedulePage() {
             </p>
           </section>
 
-          {/* Call to Action WhatsApp Banner */}
-          <section className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-3xl p-6 md:p-8 text-center flex flex-col items-center gap-4 shadow-lg shadow-black">
-            <h3 className="text-[#FFD13F] font-black text-xl md:text-2xl uppercase tracking-wider">
-              Ready to Bet on The Hundred 2026?
-            </h3>
-            <p className="text-gray-200 text-sm md:text-base max-w-xl font-semibold leading-relaxed">
-              Get your official Reddy Anna Betting ID in less than 60 seconds on WhatsApp! Bet with top industry odds, instant 24/7 withdrawals, and get up to 150% Welcome Bonus.
-            </p>
-            <div className="pt-2">
-              <ConicButton text="Get Your Betting ID via WhatsApp Now" />
-            </div>
-            <p className="text-gray-400 text-xs mt-2 italic">
-              Last updated: 9 July 2026. Fixtures and squads as per official ECB announcements.
-            </p>
-          </section>
+          {/* Call to Action Card */}
+          <BlogCtaCard />
 
         </div>
       </div>
