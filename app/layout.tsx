@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { GoogleAnalytics } from '@next/third-parties/google';
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -106,19 +107,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <main className="flex-1 w-full bg-[#05080f]">{children}</main>
         <Footer />
         <WhatsAppButton />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-GSYPQG92W7" strategy="afterInteractive" />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){window.dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-GSYPQG92W7');
-            `
-          }}
-        />
+        <GoogleAnalytics gaId="G-6HEHNCLJQJ" />
       </body>
     </html>
   );
