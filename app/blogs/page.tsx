@@ -81,6 +81,84 @@ export default function BlogsPage() {
               </div>
             </article>
 
+            {/* Cricket Betting Line Movement Blog Card */}
+            <article className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-3xl p-6 flex flex-col md:flex-row gap-6 shadow-lg shadow-black group hover:border-[#F0901A]/35 transition-all duration-300">
+              {/* Blog Image */}
+              <div className="w-full md:w-1/3 aspect-[1.8/1] md:aspect-[4/3] rounded-2xl overflow-hidden shadow-md flex-shrink-0">
+                <img
+                  src="/cricket-betting-confessions.png"
+                  alt="Cricket Betting Line Movement"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+
+              {/* Blog Content */}
+              <div className="flex-1 flex flex-col justify-between gap-4">
+                <div className="flex flex-col gap-2">
+                  <span className="text-[#F0901A] font-bold text-xs tracking-wider uppercase">
+                    🏏 Betting Insights
+                  </span>
+                  <h2 className="text-white font-black text-xl md:text-2xl group-hover:text-[#FFD13F] transition-colors leading-tight">
+                    Cricket Betting Confessions: What Sportsbook Insiders Won’t Tell You About Line Movement
+                  </h2>
+                  <p className="text-gray-400 font-semibold text-xs">
+                    📅 Published: August 5, 2026
+                  </p>
+                  <p className="text-gray-300 text-sm md:text-base leading-relaxed line-clamp-3 md:line-clamp-4">
+                    Sportsbook traders move cricket odds for reasons they’d rather you didn’t know. Here’s what line movement actually signals — and how sharp bettors read it before placing a single bet.
+                  </p>
+                </div>
+
+                <div className="pt-2">
+                  <Link
+                    href="/cricket-betting-line-movement/"
+                    className="inline-flex items-center justify-center px-6 py-2.5 font-extrabold text-black bg-gradient-to-r from-[#FFD13F] to-[#F0901A] rounded-xl hover:from-[#F0901A] hover:to-[#FFD13F] transition-all duration-300 shadow-md shadow-black/30 hover:scale-[1.02] text-xs md:text-sm"
+                  >
+                    Show More
+                  </Link>
+                </div>
+              </div>
+            </article>
+
+            {/* Underdog Formula Blog Card */}
+            <article className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-3xl p-6 flex flex-col md:flex-row gap-6 shadow-lg shadow-black group hover:border-[#F0901A]/35 transition-all duration-300">
+              {/* Blog Image */}
+              <div className="w-full md:w-1/3 aspect-[1.8/1] md:aspect-[4/3] rounded-2xl overflow-hidden shadow-md flex-shrink-0">
+                <img
+                  src="/underdog-formula-ipl-upsets.png"
+                  alt="The Underdog Formula: IPL Upsets"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+
+              {/* Blog Content */}
+              <div className="flex-1 flex flex-col justify-between gap-4">
+                <div className="flex flex-col gap-2">
+                  <span className="text-[#F0901A] font-bold text-xs tracking-wider uppercase">
+                    🏏 Betting Strategies
+                  </span>
+                  <h2 className="text-white font-black text-xl md:text-2xl group-hover:text-[#FFD13F] transition-colors leading-tight">
+                    The Underdog Formula: How One Stat Predicted 4 of the Last 5 IPL Upsets
+                  </h2>
+                  <p className="text-gray-400 font-semibold text-xs">
+                    📅 Published: August 5, 2026
+                  </p>
+                  <p className="text-gray-300 text-sm md:text-base leading-relaxed line-clamp-3 md:line-clamp-4">
+                    A single cricket metric — the Phase Dominance Score — correctly flagged 4 of the last 5 major IPL upsets before the first ball was bowled. Here's the formula, the evidence, and how to apply it yourself.
+                  </p>
+                </div>
+
+                <div className="pt-2">
+                  <Link
+                    href="/underdog-formula-ipl-upsets/"
+                    className="inline-flex items-center justify-center px-6 py-2.5 font-extrabold text-black bg-gradient-to-r from-[#FFD13F] to-[#F0901A] rounded-xl hover:from-[#F0901A] hover:to-[#FFD13F] transition-all duration-300 shadow-md shadow-black/30 hover:scale-[1.02] text-xs md:text-sm"
+                  >
+                    Show More
+                  </Link>
+                </div>
+              </div>
+            </article>
+
           </div>
 
         </div>
