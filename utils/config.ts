@@ -40,12 +40,12 @@ export const CONFIG = {
     ],
     
     certs: [
-      "https://reddynow.com/wp-content/uploads/2025/06/gc-logo-1-1.webp",
-      "https://reddynow.com/wp-content/uploads/2025/06/egf-logo-1-1.webp",
-      "https://reddynow.com/wp-content/uploads/2025/06/digicert-logo-1-1.webp",
-      "https://reddynow.com/wp-content/uploads/2025/06/18plus-1-1.webp",
-      "https://reddynow.com/wp-content/uploads/2025/06/gamecare-1-1-1.webp",
-      "https://reddynow.com/wp-content/uploads/2025/06/gt-1-1-1.webp"
+      "/certs/gc_logo.png",
+      "/certs/egf_logo.png",
+      "/certs/digicert_logo.png",
+      "/certs/eighteen_plus.png",
+      "/certs/gamecare_logo.png",
+      "/certs/gt_logo.png"
     ]
   },
 
