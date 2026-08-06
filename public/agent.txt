@@ -2,7 +2,7 @@
 # Specification: https://github.com/ai-agents/agent.txt
 
 Site-Name: Reddy Anna Book Official
-Site-URL: https://reddybookwinin.in
+Site-URL: https://reddynow.com
 Developer-Contact: https://wa.me/916026703858
 Description: Official platform for Reddy Anna Book sports exchange IDs, cricket betting updates, schedules, and live casino guides.
 
@@ -14,5 +14,5 @@ Disallow: /privacy-policy
 Disallow: /terms-and-conditions
 
 # Recommended Ingestion Pathways
-Sitemap: https://reddybookwinin.in/sitemap.xml
-Blogs: https://reddybookwinin.in/blogs
+Sitemap: https://reddynow.com/sitemap.xml
+Blogs: https://reddynow.com/blogs

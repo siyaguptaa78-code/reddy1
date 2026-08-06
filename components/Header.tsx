@@ -54,9 +54,7 @@ export const Header: React.FC = () => {
             return (
               <div
                 key={idx}
-                className="relative group"
-                onMouseEnter={() => hasChildren && setActiveDropdown(idx)}
-                onMouseLeave={() => hasChildren && setActiveDropdown(null)}
+                className="relative group py-4"
               >
                 <Link
                   href={item.href}
@@ -69,7 +67,7 @@ export const Header: React.FC = () => {
                       width="12"
                       height="12"
                       fill="currentColor"
-                      className="bi bi-chevron-down"
+                      className="bi bi-chevron-down transition-transform group-hover:rotate-180"
                       viewBox="0 0 16 16"
                     >
                       <path
@@ -81,17 +79,19 @@ export const Header: React.FC = () => {
                 </Link>
 
                 {/* Submenu Dropdown */}
-                {hasChildren && activeDropdown === idx && (
-                  <div className="absolute left-0 mt-2 w-52 bg-[#0c1322] border border-[#F0901A]/10 rounded-xl overflow-hidden shadow-2xl py-2 animate-fade-in">
-                    {item.children?.map((sub, subIdx) => (
-                      <Link
-                        key={subIdx}
-                        href={sub.href}
-                        className="block px-4 py-2.5 text-gray-300 hover:text-black hover:bg-gradient-to-r hover:from-[#FFD13F] hover:to-[#F0901A] font-bold text-xs transition-all duration-200"
-                      >
-                        {sub.label}
-                      </Link>
-                    ))}
+                {hasChildren && (
+                  <div className="absolute left-0 top-full pt-1 hidden group-hover:block z-50">
+                    <div className="w-52 bg-[#0c1322] border border-[#F0901A]/10 rounded-xl overflow-hidden shadow-2xl py-2 animate-fade-in">
+                      {item.children?.map((sub, subIdx) => (
+                        <Link
+                          key={subIdx}
+                          href={sub.href}
+                          className="block px-4 py-2.5 text-gray-300 hover:text-black hover:bg-gradient-to-r hover:from-[#FFD13F] hover:to-[#F0901A] font-bold text-xs transition-all duration-200"
+                        >
+                          {sub.label}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>
@@ -168,19 +168,25 @@ export const Header: React.FC = () => {
             const hasChildren = !!item.children;
             return (
               <div key={idx} className="flex flex-col gap-2">
-                <div className="flex items-center justify-between">
+                <div 
+                  className="flex items-center justify-between cursor-pointer border-b border-white/5 py-1"
+                  onClick={() => {
+                    if (hasChildren) {
+                      handleDropdownToggle(idx);
+                    } else {
+                      setMobileMenuOpen(false);
+                    }
+                  }}
+                >
                   <Link
-                    href={item.href}
-                    onClick={() => !hasChildren && setMobileMenuOpen(false)}
-                    className="text-white hover:text-[#FFD13F] font-bold text-sm tracking-wide"
+                    href={hasChildren ? "#" : item.href}
+                    onClick={(e) => hasChildren && e.preventDefault()}
+                    className="text-white hover:text-[#FFD13F] font-bold text-sm tracking-wide flex-1 py-2"
                   >
                     {item.label}
                   </Link>
                   {hasChildren && (
-                    <button
-                      onClick={() => handleDropdownToggle(idx)}
-                      className="text-[#F0901A] p-1.5 focus:outline-none"
-                    >
+                    <div className="text-[#F0901A] p-2 flex items-center justify-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -196,7 +202,7 @@ export const Header: React.FC = () => {
                           d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                         />
                       </svg>
-                    </button>
+                    </div>
                   )}
                 </div>
 

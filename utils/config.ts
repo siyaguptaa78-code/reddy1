@@ -1,51 +1,51 @@
 export const CONFIG = {
   brandName: "Reddy Anna",
-  domainName: "reddybookwinin.in",
+  domainName: "reddynow.com",
   whatsappUrl: "https://wa.me/916026703858",
   whatsappSupportUrl: "https://wa.me/916026703858",
   
   logoUrl: "https://reddybookwinin.in/wp-content/uploads/2025/06/image-659e7b71ad644.webp",
-  faviconUrl: "https://reddybookwinin.in/wp-content/uploads/2025/06/cropped-download-1-1-150x150.png",
+  faviconUrl: "https://reddynow.com/wp-content/uploads/2025/06/cropped-download-1-1-150x150.png",
   
   images: {
-    heroBg: "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
-    cricketCardBg: "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
-    footballCardBg: "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/football-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
-    tennisCardBg: "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/tennis-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
-    horseCardBg: "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/horse-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
-    greyhoundCardBg: "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/greyhound-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
+    heroBg: "https://reddynow.com/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
+    cricketCardBg: "https://reddynow.com/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
+    footballCardBg: "https://reddynow.com/wp-content/uploads/elementor/thumbs/football-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
+    tennisCardBg: "https://reddynow.com/wp-content/uploads/elementor/thumbs/tennis-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
+    horseCardBg: "https://reddynow.com/wp-content/uploads/elementor/thumbs/horse-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
+    greyhoundCardBg: "https://reddynow.com/wp-content/uploads/elementor/thumbs/greyhound-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
     
-    eCricketQuickBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/e-cricket-quick-bg.webp",
-    evolutionQuickBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/evolution-quick-bg.png",
-    aviatorQuickBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/aviator.png",
-    sportsbookQuickBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/sportsbook-quick-bg.png",
+    eCricketQuickBg: "https://reddynow.com/wp-content/uploads/2026/04/e-cricket-quick-bg.webp",
+    evolutionQuickBg: "https://reddynow.com/wp-content/uploads/2026/04/evolution-quick-bg.png",
+    aviatorQuickBg: "https://reddynow.com/wp-content/uploads/2026/04/aviator.png",
+    sportsbookQuickBg: "https://reddynow.com/wp-content/uploads/2026/04/sportsbook-quick-bg.png",
     
-    brandIntroBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/Reddy-Anna-—-Indias-1-Official-Cricket-Betting-ID-Provider.jpg",
-    whatIsReddyAnnaBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/What-Is-Reddy-Anna_-A-Complete-Introduction.jpg",
-    exchangeBg: "https://reddybookwinin.in/wp-content/uploads/2026/04/Reddy-Anna-Exchange-Advanced-Betting-for-Experienced-Punters.jpg",
+    brandIntroBg: "https://reddynow.com/wp-content/uploads/2026/04/Reddy-Anna-—-Indias-1-Official-Cricket-Betting-ID-Provider.jpg",
+    whatIsReddyAnnaBg: "https://reddynow.com/wp-content/uploads/2026/04/What-Is-Reddy-Anna_-A-Complete-Introduction.jpg",
+    exchangeBg: "https://reddynow.com/wp-content/uploads/2026/04/Reddy-Anna-Exchange-Advanced-Betting-for-Experienced-Punters.jpg",
     
     bonuses: {
-      welcome: "https://reddybookwinin.in/wp-content/uploads/2026/04/welcom-bonas-removebg-preview.webp",
-      daily: "https://reddybookwinin.in/wp-content/uploads/2026/04/deposite-bonus-removebg-preview-1.webp",
-      referral: "https://reddybookwinin.in/wp-content/uploads/2026/04/refer-bonus-removebg-preview.webp",
-      seasonal: "https://reddybookwinin.in/wp-content/uploads/2026/04/icons8-confetti-100.png.webp"
+      welcome: "https://reddynow.com/wp-content/uploads/2026/04/welcom-bonas-removebg-preview.webp",
+      daily: "https://reddynow.com/wp-content/uploads/2026/04/deposite-bonus-removebg-preview-1.webp",
+      referral: "https://reddynow.com/wp-content/uploads/2026/04/refer-bonus-removebg-preview.webp",
+      seasonal: "https://reddynow.com/wp-content/uploads/2026/04/icons8-confetti-100.png.webp"
     },
     
     steps: [
-      "https://reddybookwinin.in/wp-content/uploads/2026/04/1-1-removebg-preview.png",
-      "https://reddybookwinin.in/wp-content/uploads/2026/04/2-1-removebg-preview.png",
-      "https://reddybookwinin.in/wp-content/uploads/2026/04/3-1-removebg-preview.png",
-      "https://reddybookwinin.in/wp-content/uploads/2026/04/4-1-removebg-preview.png",
-      "https://reddybookwinin.in/wp-content/uploads/2026/04/5-1-removebg-preview.png"
+      "https://reddynow.com/wp-content/uploads/2026/04/1-1-removebg-preview.png",
+      "https://reddynow.com/wp-content/uploads/2026/04/2-1-removebg-preview.png",
+      "https://reddynow.com/wp-content/uploads/2026/04/3-1-removebg-preview.png",
+      "https://reddynow.com/wp-content/uploads/2026/04/4-1-removebg-preview.png",
+      "https://reddynow.com/wp-content/uploads/2026/04/5-1-removebg-preview.png"
     ],
     
     certs: [
-      "https://reddybookwinin.in/wp-content/uploads/2025/06/gc-logo-1-1.webp",
-      "https://reddybookwinin.in/wp-content/uploads/2025/06/egf-logo-1-1.webp",
-      "https://reddybookwinin.in/wp-content/uploads/2025/06/digicert-logo-1-1.webp",
-      "https://reddybookwinin.in/wp-content/uploads/2025/06/18plus-1-1.webp",
-      "https://reddybookwinin.in/wp-content/uploads/2025/06/gamecare-1-1-1.webp",
-      "https://reddybookwinin.in/wp-content/uploads/2025/06/gt-1-1-1.webp"
+      "https://reddynow.com/wp-content/uploads/2025/06/gc-logo-1-1.webp",
+      "https://reddynow.com/wp-content/uploads/2025/06/egf-logo-1-1.webp",
+      "https://reddynow.com/wp-content/uploads/2025/06/digicert-logo-1-1.webp",
+      "https://reddynow.com/wp-content/uploads/2025/06/18plus-1-1.webp",
+      "https://reddynow.com/wp-content/uploads/2025/06/gamecare-1-1-1.webp",
+      "https://reddynow.com/wp-content/uploads/2025/06/gt-1-1-1.webp"
     ]
   },
 
@@ -135,18 +135,18 @@ export const CONFIG = {
   },
 
   casinos: [
-    { label: "Teen Patti", name: "2020poker.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/2020poker.webp" },
-    { label: "Poker", name: "Muflis_teenpatti.png", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/Muflis_teenpatti.png" },
-    { label: "Jili", name: "jilib.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/jilib.webp" },
-    { label: "Ezugi", name: "ezugib.jpg", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/ezugib.jpg" },
-    { label: "Super Spade", name: "superspadeb.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/superspadeb.webp" },
-    { label: "Table Games", name: "tablegamesb.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/tablegamesb.webp" },
-    { label: "Virtual Sports", name: "virtualb.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/virtualb.webp" },
-    { label: "Bingo", name: "bingob.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/bingob.webp" },
-    { label: "Fishing Games", name: "fishingb.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/fishingb.webp" },
-    { label: "Betgames", name: "betgamesb.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/betgamesb.webp" },
-    { label: "Casino", name: "casinob.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/casinob.webp" },
-    { label: "Live Casino", name: "liveb.webp", image: "https://reddybookwinin.in/wp-content/uploads/2026/04/liveb.webp" }
+    { label: "Teen Patti", name: "2020poker.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/2020poker.webp" },
+    { label: "Poker", name: "Muflis_teenpatti.png", image: "https://reddynow.com/wp-content/uploads/2026/04/Muflis_teenpatti.png" },
+    { label: "Jili", name: "jilib.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/jilib.webp" },
+    { label: "Ezugi", name: "ezugib.jpg", image: "https://reddynow.com/wp-content/uploads/2026/04/ezugib.jpg" },
+    { label: "Super Spade", name: "superspadeb.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/superspadeb.webp" },
+    { label: "Table Games", name: "tablegamesb.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/tablegamesb.webp" },
+    { label: "Virtual Sports", name: "virtualb.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/virtualb.webp" },
+    { label: "Bingo", name: "bingob.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/bingob.webp" },
+    { label: "Fishing Games", name: "fishingb.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/fishingb.webp" },
+    { label: "Betgames", name: "betgamesb.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/betgamesb.webp" },
+    { label: "Casino", name: "casinob.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/casinob.webp" },
+    { label: "Live Casino", name: "liveb.webp", image: "https://reddynow.com/wp-content/uploads/2026/04/liveb.webp" }
   ],
 
   faqs: [
@@ -156,11 +156,11 @@ export const CONFIG = {
     },
     {
       question: "How do I create a Reddy Anna ID?",
-      answer: "Visit reddybookwinin.in, click the WhatsApp button, and contact our official agent. Share your preferred username and password. Your ID is created and delivered in under 60 seconds."
+      answer: "Visit reddynow.com, click the WhatsApp button, and contact our official agent. Share your preferred username and password. Your ID is created and delivered in under 60 seconds."
     },
     {
       question: "Is Reddy Anna safe and legitimate?",
-      answer: "Yes. Reddy Anna has operated safely since 2010, serving millions of verified users across India. All transactions are encrypted, all payments are processed through secure Indian banking channels, and all payouts are guaranteed. reddybookwinin.in is the only official Reddy Anna domain — always verify you are on the right site."
+      answer: "Yes. Reddy Anna has operated safely since 2010, serving millions of verified users across India. All transactions are encrypted, all payments are processed through secure Indian banking channels, and all payouts are guaranteed. reddynow.com is the only official Reddy Anna domain — always verify you are on the right site."
     },
     {
       question: "What payment methods does Reddy Anna accept?",
@@ -172,11 +172,11 @@ export const CONFIG = {
     },
     {
       question: "Does Reddy Anna offer casino games?",
-      answer: "Yes. reddybookwinin.in offers a comprehensive live casino section featuring Teen Patti, Andar Bahar, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, and hundreds of slots. All games run 24/7 with live dealers and certified fair-play mechanisms."
+      answer: "Yes. reddynow.com offers a comprehensive live casino section featuring Teen Patti, Andar Bahar, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, and hundreds of slots. All games run 24/7 with live dealers and certified fair-play mechanisms."
     },
     {
       question: "How can I contact Reddy Anna support?",
-      answer: "Our support team is available 24/7 via WhatsApp and Telegram. Visit reddybookwinin.in and click the WhatsApp icon for instant connection to our support team. Average response time is under 2 minutes, even during live matches."
+      answer: "Our support team is available 24/7 via WhatsApp and Telegram. Visit reddynow.com and click the WhatsApp icon for instant connection to our support team. Average response time is under 2 minutes, even during live matches."
     },
     {
       question: "What is a Reddy Anna Demo ID?",

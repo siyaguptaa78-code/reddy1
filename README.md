@@ -1,6 +1,6 @@
 # Reddy Anna Book — Next.js Replicated Website
 
-A fully responsive, pixel-perfect replication of [reddybookwinin.in](https://reddybookwinin.in) constructed in **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
+A fully responsive, pixel-perfect replication of [reddynow.com](https://reddynow.com) constructed in **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 
 The project implements the exact visual layout structure, header menus, custom sidebars, live match listings, step-by-step guides, collapsible FAQ accordions, certified legal badge sections, and all subpages of the original.
 

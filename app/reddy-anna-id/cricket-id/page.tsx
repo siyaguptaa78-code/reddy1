@@ -1,6 +1,5 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Sidebar } from "@/components/Sidebar";
 import { ConicButton } from "@/components/ConicButton";
 
 export const metadata: Metadata = {
@@ -18,15 +17,13 @@ export const metadata: Metadata = {
 export default function CricketIdPage() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 ">
-      <div className="w-full flex flex-col lg:flex-row gap-8">
+      <div className="w-full flex flex-col gap-8 text-left">
         
         {/* Left Sidebar */}
-        <div className="hidden lg:block lg:w-1/4">
-          <Sidebar />
-        </div>
+        
 
         {/* Main Content */}
-        <div className="w-full lg:w-3/4 flex flex-col gap-8 text-left">
+        <div className="w-full flex flex-col gap-8 text-left">
           
           {/* Main Title Banner */}
           <section className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-3xl p-6 md:p-8 flex flex-col gap-4 shadow-lg shadow-black">

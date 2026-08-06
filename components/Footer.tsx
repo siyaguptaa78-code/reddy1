@@ -9,10 +9,10 @@ export const Footer: React.FC = () => {
         {/* Column 1: About Reddy Anna */}
         <div className="flex flex-col gap-4">
           <h4 className="text-white font-black text-lg border-b border-[#F0901A]/10 pb-2 mb-2">
-            About Reddy Anna Book
+            About Reddy Anna
           </h4>
           <p className="text-gray-300 text-sm leading-relaxed">
-            Since 2010, Reddy Anna Book has provided online betting service in India. Join our trusted 200+ branches network and Get authorised ID. Create Reddy Anna Online Book id in 2 minutes. No KYC, no documentation, instant approval.
+            Operating since 2010, Reddy Anna provides secure betting services across India. Get your official ID in minutes and join thousands of daily active users.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
               { label: "Reddy Anna", href: "/" },
               { label: "Reddy Anna Online Book", href: "/" },
               { label: "Reddy Book", href: "/" },
-              { label: "Reddy Anna Booking", href: "/" },
+              { label: "Reddy Anna Booking", href: "/login" },
               { label: "Reddy Anna Book Login", href: "/login" },
               { label: "Reddy Anna Club", href: "/" }
             ].map((link, idx) => (

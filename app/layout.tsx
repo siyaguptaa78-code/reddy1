@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Reddy Anna Book",
     images: [
       {
-        url: "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
+        url: "https://reddynow.com/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp",
         width: 800,
         height: 600,
         alt: "Reddy Anna Book Cricket Background"
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     description:
       "Get your Reddy Anna Book ID instantly. Enjoy cricket IPL betting, casino games, & secure platform. Join India's trusted betting hub today",
     images: [
-      "https://reddybookwinin.in/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp"
+      "https://reddynow.com/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp"
     ]
   },
   icons: {
