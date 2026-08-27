@@ -1,8 +1,8 @@
 export const CONFIG = {
   brandName: "Reddy Anna",
   domainName: "reddynow.com",
-  whatsappUrl: "https://wa.me/916026703858",
-  whatsappSupportUrl: "https://wa.me/916026703858",
+  whatsappUrl: "https://wa.me/918796686330",
+  whatsappSupportUrl: "https://wa.me/918796686330",
   
   logoUrl: "https://images.unsplash.com/photo-1599577180579-79c293444002?q=80&w=200&auto=format&fit=crop", // placeholder logo
   faviconUrl: "/favicon.ico",
