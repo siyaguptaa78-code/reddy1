@@ -228,14 +228,14 @@ export const Header: React.FC = () => {
           {/* CTA Buttons in Mobile Dropdown */}
           <div className="flex flex-col gap-3 mt-2 border-t border-[#F0901A]/5 pt-4">
             <Link
-              href="https://reddynow.com/"
+              href="https://www.Gabbar247.vip"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full text-center border border-white hover:border-[#FFD13F] text-white hover:text-black hover:bg-gradient-to-r hover:from-[#FFD13F] hover:to-[#F0901A] font-bold text-xs py-2.5 rounded-full transition-all"
             >
               Register
             </Link>
             <Link
-              href="https://reddynow.com/"
+              href="https://www.Gabbar247.vip"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full text-center bg-gradient-to-r from-[#FFD13F] to-[#F0901A] text-black font-extrabold text-xs py-2.5 rounded-full"
             >
