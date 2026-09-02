@@ -4,7 +4,7 @@ export const CONFIG = {
   whatsappUrl: "https://wa.me/918796686330",
   whatsappSupportUrl: "https://wa.me/918796686330",
   
-  logoUrl: "https://images.unsplash.com/photo-1599577180579-79c293444002?q=80&w=200&auto=format&fit=crop", // placeholder logo
+  logoUrl: "/logo.jpg",
   faviconUrl: "/favicon.ico",
   
   images: {
