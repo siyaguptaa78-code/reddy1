@@ -53,6 +53,9 @@ export const metadata: Metadata = {
       "https://reddynow.com/wp-content/uploads/elementor/thumbs/cricket-bg-rlghoi9i0hsj2n8qphq7tivs3mol4s3iin7qqytzxc.webp"
     ]
   },
+  verification: {
+    google: "N85gFpQeZMUWZnN2y13W9dkgHN6VAkq1O_3a4HfHwt8",
+  },
   icons: {
     icon: [
       {
@@ -81,9 +84,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-US">
-      <head>
-        <meta name="google-site-verification" content="N85gFpQeZMUWZnN2y13W9dkgHN6VAkq1O_3a4HfHwt8" />
-        <script
+      <body className="min-h-screen bg-[#05080f] text-gray-200 antialiased flex flex-col justify-between">
+        <Script
+          id="gtm-script"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -96,7 +100,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet"
         />
-        <script
+        <Script
+          id="schema-org"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -216,8 +221,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             })
           }}
         />
-      </head>
-      <body className="min-h-screen bg-[#05080f] text-gray-200 antialiased flex flex-col justify-between">
         <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXD7FFNS" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
