@@ -224,7 +224,7 @@ export default function Home() {
             </div>
             
             <div className="space-y-4">
-              {CONFIG.faqs.slice(0, 6).map((faq, i) => (
+              {CONFIG.faqs.map((faq, i) => (
                 <details key={i} className="group bg-white/5 border border-white/10 rounded-2xl overflow-hidden [&_summary::-webkit-details-marker]:hidden">
                   <summary className="p-6 md:p-8 font-bold text-white text-lg md:text-xl cursor-pointer select-none flex justify-between items-center hover:bg-white/10 transition-colors">
                      {faq.question}
