@@ -78,6 +78,45 @@ export default function BlogsPage() {
               </div>
             </article>
 
+            {/* Smriti Mandhana Blog Card */}
+            <article className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-3xl p-6 flex flex-col md:flex-row gap-6 shadow-lg shadow-black group hover:border-[#F0901A]/35 transition-all duration-300">
+              {/* Blog Image */}
+              <div className="w-full md:w-1/3 aspect-[1.8/1] md:aspect-[4/3] rounded-2xl overflow-hidden shadow-md flex-shrink-0 bg-slate-900 border border-[#F0901A]/20 flex items-center justify-center p-6 text-center">
+                <div className="flex flex-col items-center gap-2">
+                  <span className="text-4xl">🏏</span>
+                  <span className="text-[#FFD13F] font-black text-lg">HISTORY CREATED</span>
+                  <span className="text-xs text-gray-400 font-mono">Smriti Mandhana</span>
+                </div>
+              </div>
+
+              {/* Blog Content */}
+              <div className="flex-1 flex flex-col justify-between gap-4">
+                <div className="flex flex-col gap-2">
+                  <span className="text-[#F0901A] font-bold text-xs tracking-wider uppercase">
+                    🏏 Women's Cricket
+                  </span>
+                  <h2 className="text-white font-black text-xl md:text-2xl group-hover:text-[#FFD13F] transition-colors leading-tight">
+                    Smriti Mandhana Creates History, Surpasses Mithali Raj to Become Women’s Cricket’s Leading Run-Scorer
+                  </h2>
+                  <p className="text-gray-400 font-semibold text-xs">
+                    📅 Published: September 4, 2026
+                  </p>
+                  <p className="text-gray-300 text-sm md:text-base leading-relaxed line-clamp-3 md:line-clamp-4">
+                    Smriti Mandhana becomes the leading run-scorer in women's international cricket after a sensational century against Hong Kong China in the Women's Asia Cup 2026, overtaking Mithali Raj's record.
+                  </p>
+                </div>
+
+                <div className="pt-2">
+                  <Link
+                    href="/smriti-mandhana-creates-history/"
+                    className="inline-flex items-center justify-center px-6 py-2.5 font-extrabold text-black bg-gradient-to-r from-[#FFD13F] to-[#F0901A] rounded-xl hover:from-[#F0901A] hover:to-[#FFD13F] transition-all duration-300 shadow-md shadow-black/30 hover:scale-[1.02] text-xs md:text-sm"
+                  >
+                    Show More
+                  </Link>
+                </div>
+              </div>
+            </article>
+
             {/* The Hundred 2026 Blog Card */}
             <article className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-3xl p-6 flex flex-col md:flex-row gap-6 shadow-lg shadow-black group hover:border-[#F0901A]/35 transition-all duration-300">
               {/* Blog Image */}
