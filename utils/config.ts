@@ -1,53 +1,53 @@
 export const CONFIG = {
- brandName: "Reddy Anna",
- domainName: "reddynow.com",
- whatsappUrl: "https://wa.me/918796686330",
- whatsappSupportUrl: "https://wa.me/918796686330",
- 
- logoUrl: "/logo.jpg",
- faviconUrl: "/favicon.ico",
- 
- images: {
- heroBg: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2805&auto=format&fit=crop",
- cricketCardBg: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2938&auto=format&fit=crop",
- footballCardBg: "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?q=80&w=3162&auto=format&fit=crop",
- tennisCardBg: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=2942&auto=format&fit=crop",
- horseCardBg: "https://images.unsplash.com/photo-1599818815124-f1873b88eef0?q=80&w=2940&auto=format&fit=crop",
- greyhoundCardBg: "https://images.unsplash.com/photo-1616428751515-32e652c799a4?q=80&w=2940&auto=format&fit=crop",
- 
- eCricketQuickBg: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2938&auto=format&fit=crop",
- evolutionQuickBg: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=2940&auto=format&fit=crop",
- aviatorQuickBg: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=2940&auto=format&fit=crop",
- sportsbookQuickBg: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?q=80&w=2787&auto=format&fit=crop",
- 
- brandIntroBg: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2805&auto=format&fit=crop",
- whatIsReddyAnnaBg: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2805&auto=format&fit=crop",
- exchangeBg: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?q=80&w=2787&auto=format&fit=crop",
- 
- bonuses: {
- welcome: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
- daily: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
- referral: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
- seasonal: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop"
- },
- 
- steps: [
- "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop"
- ],
- 
- certs: [
- "/certs/gc_logo.png",
- "/certs/egf_logo.png",
- "/certs/digicert_logo.png",
- "/certs/eighteen_plus.png",
- "/certs/gamecare_logo.png",
- "/certs/gt_logo.png"
- ]
- },
+  brandName: "Reddy Anna",
+  domainName: "reddynow.com",
+  whatsappUrl: "https://wa.me/918796686330",
+  whatsappSupportUrl: "https://wa.me/918360750829",
+  
+  logoUrl: "/logo.jpg",
+  faviconUrl: "/favicon.ico",
+  
+  images: {
+    heroBg: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2805&auto=format&fit=crop",
+    cricketCardBg: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2938&auto=format&fit=crop",
+    footballCardBg: "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?q=80&w=3162&auto=format&fit=crop",
+    tennisCardBg: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=2942&auto=format&fit=crop",
+    horseCardBg: "https://images.unsplash.com/photo-1599818815124-f1873b88eef0?q=80&w=2940&auto=format&fit=crop",
+    greyhoundCardBg: "https://images.unsplash.com/photo-1616428751515-32e652c799a4?q=80&w=2940&auto=format&fit=crop",
+    
+    eCricketQuickBg: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2938&auto=format&fit=crop",
+    evolutionQuickBg: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=2940&auto=format&fit=crop",
+    aviatorQuickBg: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=2940&auto=format&fit=crop",
+    sportsbookQuickBg: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?q=80&w=2787&auto=format&fit=crop",
+    
+    brandIntroBg: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2805&auto=format&fit=crop",
+    whatIsReddyAnnaBg: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=2805&auto=format&fit=crop",
+    exchangeBg: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?q=80&w=2787&auto=format&fit=crop",
+    
+    bonuses: {
+      welcome: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
+      daily: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
+      referral: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
+      seasonal: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop"
+    },
+    
+    steps: [
+      "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?q=80&w=2944&auto=format&fit=crop"
+    ],
+    
+    certs: [
+      "/certs/gc_logo.png",
+      "/certs/egf_logo.png",
+      "/certs/digicert_logo.png",
+      "/certs/eighteen_plus.png",
+      "/certs/gamecare_logo.png",
+      "/certs/gt_logo.png"
+    ]
+  },
 
  navigation: [
  { label: "Home", href: "/" },
