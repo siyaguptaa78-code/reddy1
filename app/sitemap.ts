@@ -1,10 +1,10 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://reddynow.com';
-  const lastModified = new Date();
+ const baseUrl = 'https://reddynow.com';
+ const lastModified = new Date();
 
-  return [
+ return [
     { url: baseUrl, lastModified, changeFrequency: 'daily', priority: 1 },
     { url: `${baseUrl}/about-us`, lastModified, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/blogs`, lastModified, changeFrequency: 'weekly', priority: 0.8 },
@@ -24,5 +24,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/register`, lastModified, changeFrequency: 'yearly', priority: 0.5 },
     { url: `${baseUrl}/privacy-policy`, lastModified, changeFrequency: 'yearly', priority: 0.4 },
     { url: `${baseUrl}/terms-and-conditions`, lastModified, changeFrequency: 'yearly', priority: 0.4 },
-  ];
+ ];
 }
