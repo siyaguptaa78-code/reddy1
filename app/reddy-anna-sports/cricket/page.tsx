@@ -6,16 +6,16 @@ import { MatchList } from "@/components/MatchList";
 export const metadata: Metadata = {
  title: "Cricket Online | Live IPL Odds | Reddy Anna Book",
  description: "Bet on live cricket matches with Reddy Anna Book. Best IPL, T20 and Test match odds with instant payouts and 24/7 support.",
-  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/cricket-betting" },
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/cricket" },
  openGraph: {
  title: "Cricket | Reddy Anna Book",
  description: "Bet on live cricket with best IPL odds on Reddy Anna Book.",
-    url: "https://reddynow.com/reddy-anna-sports/cricket-betting",
+    url: "https://reddynow.com/reddy-anna-sports/cricket",
  type: "website",
  },
 };
 
-export default function CricketBettingPage() {
+export default function CricketPage() {
  return (
  <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 ">
  <div className="w-full flex flex-col gap-8 text-left">

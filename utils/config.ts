@@ -57,17 +57,17 @@ export const CONFIG = {
  children: [
  { label: "Demo ID", href: "/reddy-anna-id/demo-id" },
  { label: "Cricket ID", href: "/reddy-anna-id/cricket-id" },
- { label: "IPL ID", href: "/reddy-anna-id/ipl--id" }
+ { label: "IPL ID", href: "/reddy-anna-id/ipl-id" }
  ]
  },
  {
  label: "Reddy Anna Sports",
  href: "#",
  children: [
- { label: "Cricket ", href: "/reddy-anna-sports/cricket-" },
- { label: "Football ", href: "/reddy-anna-sports/football-" },
- { label: "Tennis ", href: "/reddy-anna-sports/tennis-" },
- { label: "Live ", href: "/reddy-anna-sports/live-" },
+ { label: "Cricket", href: "/reddy-anna-sports/cricket" },
+ { label: "Football", href: "/reddy-anna-sports/football" },
+ { label: "Tennis", href: "/reddy-anna-sports/tennis" },
+ { label: "Live", href: "/reddy-anna-sports/live" },
  { label: "Horse Racing", href: "/reddy-anna-sports/horse-racing" }
  ]
  },

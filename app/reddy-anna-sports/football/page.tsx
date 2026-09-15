@@ -6,16 +6,16 @@ import { MatchList } from "@/components/MatchList";
 export const metadata: Metadata = {
  title: "Football Online | Live Odds | Reddy Anna Book",
  description: "Bet on Premier League, Champions League and international football with Reddy Anna Book. Best live odds, instant withdrawals and trusted platform.",
-  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/football-betting" },
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/football" },
  openGraph: {
  title: "Football | Reddy Anna Book",
  description: "Bet on Premier League and international football with best live odds on Reddy Anna Book.",
-    url: "https://reddynow.com/reddy-anna-sports/football-betting",
+    url: "https://reddynow.com/reddy-anna-sports/football",
  type: "website",
  },
 };
 
-export default function FootballBettingPage() {
+export default function FootballPage() {
  return (
  <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 ">
  <div className="w-full flex flex-col gap-8 text-left">

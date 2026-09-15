@@ -6,16 +6,16 @@ import { MatchList } from "@/components/MatchList";
 export const metadata: Metadata = {
  title: "Live | In-Play Sports Odds | Reddy Anna Book",
  description: "Bet in real-time on live sports with Reddy Anna Book. In-play cricket, football and tennis with live odds updated every second.",
-  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/live-betting" },
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/live" },
  openGraph: {
  title: "Live | Reddy Anna Book",
  description: "Bet in real-time on live sports with in-play odds on Reddy Anna Book.",
-    url: "https://reddynow.com/reddy-anna-sports/live-betting",
+    url: "https://reddynow.com/reddy-anna-sports/live",
  type: "website",
  },
 };
 
-export default function LiveBettingPage() {
+export default function LivePage() {
  return (
  <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 ">
  <div className="w-full flex flex-col gap-8 text-left">

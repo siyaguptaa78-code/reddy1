@@ -54,7 +54,7 @@ export default function Home() {
 
  <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
  {/* Featured Large */}
-              <Link href="/reddy-anna-sports/cricket-betting" className="md:col-span-8 group relative rounded-3xl overflow-hidden border border-white/10 aspect-[4/3] md:aspect-auto h-full min-h-[400px]">
+              <Link href="/reddy-anna-sports/cricket" className="md:col-span-8 group relative rounded-3xl overflow-hidden border border-white/10 aspect-[4/3] md:aspect-auto h-full min-h-[400px]">
                 <img src={CONFIG.images.cricketCardBg} alt="Cricket" className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
  <div className="absolute bottom-0 left-0 p-6 md:p-10 w-full flex justify-between items-end">
@@ -71,7 +71,7 @@ export default function Home() {
  
  {/* Secondary Stack */}
  <div className="md:col-span-4 flex flex-col gap-6">
-                <Link href="/reddy-anna-sports/football-betting" className="group relative rounded-3xl overflow-hidden border border-white/10 flex-1 min-h-[200px]">
+                <Link href="/reddy-anna-sports/football" className="group relative rounded-3xl overflow-hidden border border-white/10 flex-1 min-h-[200px]">
                   <img src={CONFIG.images.footballCardBg} alt="Football" className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
  <div className="absolute bottom-0 left-0 p-6">
@@ -79,7 +79,7 @@ export default function Home() {
  <p className="text-gray-300 text-sm font-medium drop-shadow-sm">EPL, La Liga, Champions League</p>
  </div>
  </Link>
-                <Link href="/reddy-anna-sports/tennis-betting" className="group relative rounded-3xl overflow-hidden border border-white/10 flex-1 min-h-[200px]">
+                <Link href="/reddy-anna-sports/tennis" className="group relative rounded-3xl overflow-hidden border border-white/10 flex-1 min-h-[200px]">
                   <img src={CONFIG.images.tennisCardBg} alt="Tennis" className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
  <div className="absolute bottom-0 left-0 p-6">

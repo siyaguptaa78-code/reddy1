@@ -5,16 +5,16 @@ import { ConicButton } from "@/components/ConicButton";
 export const metadata: Metadata = {
  title: "IPL ID | Official Reddy Anna IPL ID | India's #1 Platform",
  description: "Get your official Reddy Anna IPL ID and bet on every IPL match live. Competitive odds, instant payouts and 24/7 support guaranteed.",
-  alternates: { canonical: "https://reddynow.com/reddy-anna-id/ipl-betting-id" },
+  alternates: { canonical: "https://reddynow.com/reddy-anna-id/ipl-id" },
  openGraph: {
  title: "IPL ID | Reddy Anna Book",
  description: "Get your official Reddy Anna IPL ID and bet on every IPL match live.",
-    url: "https://reddynow.com/reddy-anna-id/ipl-betting-id",
+    url: "https://reddynow.com/reddy-anna-id/ipl-id",
  type: "website",
  },
 };
 
-export default function IplBettingIdPage() {
+export default function IplIdPage() {
  return (
  <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 ">
  <div className="w-full flex flex-col gap-8 text-left">

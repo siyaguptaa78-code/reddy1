@@ -6,16 +6,16 @@ import { MatchList } from "@/components/MatchList";
 export const metadata: Metadata = {
  title: "Tennis Online | Live Grand Slam Odds | Reddy Anna Book",
  description: "Bet on Wimbledon, US Open, Australian Open and ATP matches with Reddy Anna Book. Live tennis odds and fast withdrawals.",
-  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/tennis-betting" },
+  alternates: { canonical: "https://reddynow.com/reddy-anna-sports/tennis" },
  openGraph: {
  title: "Tennis | Reddy Anna Book",
  description: "Bet on Wimbledon, US Open and ATP matches with Reddy Anna Book.",
-    url: "https://reddynow.com/reddy-anna-sports/tennis-betting",
+    url: "https://reddynow.com/reddy-anna-sports/tennis",
  type: "website",
  },
 };
 
-export default function TennisBettingPage() {
+export default function TennisPage() {
  return (
  <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-8 ">
  <div className="w-full flex flex-col gap-8 text-left">
