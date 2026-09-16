@@ -39,6 +39,45 @@ export default function BlogsPage() {
  {/* Blogs Grid/List */}
  <div className="flex flex-col gap-6">
  
+ {/* CPL 2026 Playoff Qualification Blog Card */}
+ <article className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-3xl p-6 flex flex-col md:flex-row gap-6 shadow-lg shadow-black group hover:border-[#F0901A]/35 transition-all duration-300">
+ {/* Blog Image */}
+ <div className="w-full md:w-1/3 aspect-[1.8/1] md:aspect-[4/3] rounded-2xl overflow-hidden shadow-md flex-shrink-0 bg-slate-900 border border-[#F0901A]/20 flex items-center justify-center p-6 text-center">
+ <div className="flex flex-col items-center gap-2">
+ <span className="text-4xl">🏏</span>
+ <span className="text-[#FFD13F] font-black text-lg">CPL 2026</span>
+ <span className="text-xs text-gray-400 font-mono">Playoffs · Barbados</span>
+ </div>
+ </div>
+
+ {/* Blog Content */}
+ <div className="flex-1 flex flex-col justify-between gap-4">
+ <div className="flex flex-col gap-2">
+ <span className="text-[#F0901A] font-bold text-xs tracking-wider uppercase">
+ 🏏 Cricket News
+ </span>
+ <h2 className="text-white font-black text-xl md:text-2xl group-hover:text-[#FFD13F] transition-colors leading-tight">
+ CPL 2026 Playoff Qualification Scenarios: Which Teams Reached the Final Four?
+ </h2>
+ <p className="text-gray-400 font-semibold text-xs">
+ 📅 Published: September 16, 2026
+ </p>
+ <p className="text-gray-300 text-sm md:text-base leading-relaxed line-clamp-3 md:line-clamp-4">
+ The CPL 2026 league phase is complete and the playoff race is settled. Get the full points table, qualification rules, and the Barbados knockout schedule as Guyana, Antigua & Barbuda, Barbados and Jamaica reach the final four.
+ </p>
+ </div>
+
+ <div className="pt-2">
+ <Link
+                    href="/cpl-2026-playoff-qualification-scenarios/"
+ className="inline-flex items-center justify-center px-6 py-2.5 font-extrabold text-black bg-gradient-to-r from-[#FFD13F] to-[#F0901A] rounded-xl hover:from-[#F0901A] hover:to-[#FFD13F] transition-all duration-300 shadow-md shadow-black/30 hover:scale-[1.02] text-xs md:text-sm"
+ >
+ Show More
+ </Link>
+ </div>
+ </div>
+ </article>
+
  {/* ReddyNow Complete Guide Blog Card */}
  <article className="w-full bg-[#0c1322] border border-[#F0901A]/10 rounded-3xl p-6 flex flex-col md:flex-row gap-6 shadow-lg shadow-black group hover:border-[#F0901A]/35 transition-all duration-300">
  {/* Blog Image */}
