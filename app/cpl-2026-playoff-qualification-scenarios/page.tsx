@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { BlogCtaCard } from "@/components/BlogCtaCard";
 import Script from "next/script";
 
@@ -355,7 +356,7 @@ export default function Cpl2026PlayoffQualificationPage() {
                 Guyana Amazon Warriors and Antigua & Barbuda Falcons earned places in Qualifier 1, while Barbados Tridents and Jamaica Kingsmen moved into the Eliminator. Saint Lucia Kings narrowly missed the top four despite ending level on points with Jamaica.
               </p>
               <p>
-                With the knockout stage beginning on September 16, the tournament now moves from league-stage qualification to a series of high-pressure matches in Barbados. Reddy Anna Book will continue providing informational cricket coverage, tournament guides, schedules, results and statistical updates for sports fans.
+                With the knockout stage beginning on September 16, the tournament now moves from league-stage qualification to a series of high-pressure matches in Barbados. <Link href="/" className="text-[#FFD13F] underline hover:text-[#F0901A] transition-colors">Reddy Anna Book</Link> will continue providing informational cricket coverage, tournament guides, schedules, results and statistical updates for sports fans.
               </p>
               <p className="p-4 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs md:text-sm font-medium">
                 ⚠️ <strong>Disclaimer:</strong> This article is for informational and educational purposes only. Reddy Anna Book does not promote, endorse or encourage betting or gambling in India. Sports betting and gambling laws vary by jurisdiction, and readers are responsible for complying with the laws applicable to them.
