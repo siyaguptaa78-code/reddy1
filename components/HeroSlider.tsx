@@ -9,18 +9,6 @@ const slides = [
  title: "The Most Trusted Exchange",
  subtitle: "Join Reddy Anna for quick ID creation, competitive odds, and fast withdrawals. We've been serving bettors since 2010.",
  cta: "Get Started Now"
- },
- {
- image: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=2940&auto=format&fit=crop",
- title: "Live Casino & Card Games",
- subtitle: "Play Teen Patti, Andar Bahar, Roulette, and Poker. Enjoy safe and secure gaming around the clock.",
- cta: "Start Playing"
- },
- {
- image: "https://images.unsplash.com/photo-1574629810360-7efbb6b490f0?q=80&w=2824&auto=format&fit=crop",
- title: "Bet on Global Sports",
- subtitle: "Follow the action in Football, Kabaddi, Tennis, and more. Trust our secure platform for your daily bets.",
- cta: "Get Your ID"
  }
 ];
 
@@ -100,41 +88,47 @@ export const HeroSlider: React.FC = () => {
  </div>
  ))}
  
- {/* Slider Indicators */}
- <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3 z-30 bg-black/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
- {slides.map((_, idx) => (
- <button
- key={idx}
- onClick={() => setCurrentSlide(idx)}
- className={`transition-all duration-500 rounded-full ${
- currentSlide === idx 
- ? "w-8 h-2 bg-gradient-to-r from-amber-400 to-orange-500 shadow-[0_0_10px_rgba(245,158,11,0.8)]" 
- : "w-2 h-2 bg-white/40 hover:bg-white/70"
- }`}
- aria-label={`Go to slide ${idx + 1}`}
- />
- ))}
- </div>
- 
- {/* Navigation Arrows */}
- <button 
- onClick={() => setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1))}
- className="absolute left-4 md:left-6 top-1/2 -translate-y-1/2 z-30 p-3 md:p-4 rounded-full bg-black/40 border border-white/10 text-white/70 hover:bg-amber-500 hover:text-black hover:border-amber-500 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-4 group-hover:translate-x-0 hidden md:block"
- aria-label="Previous slide"
- >
- <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
- <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
- </svg>
- </button>
- <button 
- onClick={() => setCurrentSlide((prev) => (prev + 1) % slides.length)}
- className="absolute right-4 md:right-6 top-1/2 -translate-y-1/2 z-30 p-3 md:p-4 rounded-full bg-black/40 border border-white/10 text-white/70 hover:bg-amber-500 hover:text-black hover:border-amber-500 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-4 group-hover:translate-x-0 hidden md:block"
- aria-label="Next slide"
- >
- <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
- <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
- </svg>
- </button>
+      {/* Slider Indicators */}
+      {slides.length > 1 && (
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3 z-30 bg-black/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
+          {slides.map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => setCurrentSlide(idx)}
+              className={`transition-all duration-500 rounded-full ${
+                currentSlide === idx 
+                  ? "w-8 h-2 bg-gradient-to-r from-amber-400 to-orange-500 shadow-[0_0_10px_rgba(245,158,11,0.8)]" 
+                  : "w-2 h-2 bg-white/40 hover:bg-white/70"
+              }`}
+              aria-label={`Go to slide ${idx + 1}`}
+            />
+          ))}
+        </div>
+      )}
+      
+      {/* Navigation Arrows */}
+      {slides.length > 1 && (
+        <>
+          <button 
+            onClick={() => setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1))}
+            className="absolute left-4 md:left-6 top-1/2 -translate-y-1/2 z-30 p-3 md:p-4 rounded-full bg-black/40 border border-white/10 text-white/70 hover:bg-amber-500 hover:text-black hover:border-amber-500 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-4 group-hover:translate-x-0 hidden md:block"
+            aria-label="Previous slide"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button 
+            onClick={() => setCurrentSlide((prev) => (prev + 1) % slides.length)}
+            className="absolute right-4 md:right-6 top-1/2 -translate-y-1/2 z-30 p-3 md:p-4 rounded-full bg-black/40 border border-white/10 text-white/70 hover:bg-amber-500 hover:text-black hover:border-amber-500 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-4 group-hover:translate-x-0 hidden md:block"
+            aria-label="Next slide"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </>
+      )}
  </div>
  );
 };
