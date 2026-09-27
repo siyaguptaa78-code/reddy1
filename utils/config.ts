@@ -1,7 +1,7 @@
 export const CONFIG = {
   brandName: "Reddy Anna",
   domainName: "reddynow.com",
-  whatsappUrl: "https://wa.me/918796686330",
+  whatsappUrl: "https://wa.me/918360750829",
   whatsappSupportUrl: "https://wa.me/918360750829",
   
   logoUrl: "/logo.jpg",
